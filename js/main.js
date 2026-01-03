@@ -59,22 +59,76 @@ slider.addEventListener('mousemove', (e) => { if(!isDown) return; e.preventDefau
 /* --- I18N --- */
 const translations = {
     en: {
-        nav_specs: "SPECS", nav_gallery: "GALLERY", hero_title: "LIQUID<br>CHROME",
-        finish: "FINISH: POLISHED SILVER", enable_3d: "ENABLE 3D", disable_3d: "EXIT 3D VIEW",
-        desc_title: "FUSION FORM<br>FACTOR.",
-        desc_text_1: "The Nike D-Line shattered watch design conventions of the early 2000s.",
-        desc_text_2: "This silver model captures the futuristic essence of the Y2K era.",
-        tech_title: "TECHNICAL DATA", spec_mat: "MATERIAL", spec_int: "INTERFACE",
-        spec_mov: "MOVEMENT", spec_yr: "YEAR", gallery_title: "ARCHIVE VISUALS"
+        // NAVEGAÇÃO
+        nav_specs: "SPECS", 
+        nav_gallery: "GALLERY", 
+        
+        // HERO SECTION
+        hero_title: "LIQUID<br>CHROME",
+        finish: "FINISH: POLISHED SILVER", 
+        drag_hint: "[ DRAG TO ROTATE ]", // Texto para Desktop
+        enable_3d: "ENABLE 3D",          // Botão Mobile
+        disable_3d: "EXIT 3D VIEW",      // Botão Mobile
+        
+        // DESCRIÇÃO (NARRATIVA)
+        desc_title: "SCULPTED<br>VELOCITY.",
+        desc_subtitle: "THE PHIL FRANK LEGACY / CIRCA 2002",
+        
+        desc_text_1: "Executed in brushed stainless steel, the D-Line abandons traditional watch geometry. Its seamless 'liquid metal' architecture unifies the bracelet and the digital module into a single, aerodynamic form designed for motion.",
+        
+        desc_text_2: "The angled interface isn't just aesthetic; it's a driver-focused ergonomic feature allowing for instant data readability at high speeds. A monolithic artifact of the Y2K industrial design era.",
+        
+        // ESPECIFICAÇÕES TÉCNICAS
+        tech_title: "TECHNICAL SPECIFICATIONS",
+        spec_case: "CONSTRUCTION",
+        spec_finish: "FINISH",
+        spec_display: "DISPLAY OPTICS",
+        spec_glass: "LENS",
+        spec_mov: "ENGINE",
+        spec_dim: "DIMENSIONS",
+        spec_wr: "WATER RATING",
+        spec_mat: "MATERIAL", // Caso uses a versão curta nalgum sítio
+        spec_int: "INTERFACE",
+        spec_yr: "YEAR",
+
+        // GALERIA
+        gallery_title: "ARCHIVE VISUALS"
     },
     pt: {
-        nav_specs: "ESPECIFICAÇÕES", nav_gallery: "GALERIA", hero_title: "CROMADO<br>LÍQUIDO",
-        finish: "ACABAMENTO: PRATA POLIDO", enable_3d: "ATIVAR 3D", disable_3d: "SAIR DO 3D",
-        desc_title: "FATOR DE<br>FORMA FUSÃO.",
-        desc_text_1: "O Nike D-Line quebrou as convenções de design do início dos anos 2000.",
-        desc_text_2: "Este modelo prateado captura a essência futurista da era Y2K.",
-        tech_title: "DADOS TÉCNICOS", spec_mat: "MATERIAL", spec_int: "INTERFACE",
-        spec_mov: "MOVIMENTO", spec_yr: "ANO", gallery_title: "ARQUIVO VISUAL"
+        // NAVEGAÇÃO
+        nav_specs: "ESPECIFICAÇÕES", 
+        nav_gallery: "GALERIA", 
+        
+        // HERO SECTION
+        hero_title: "CROMADO<br>LÍQUIDO",
+        finish: "ACABAMENTO: PRATA POLIDO", 
+        drag_hint: "[ ARRASTE PARA GIRAR ]",
+        enable_3d: "ATIVAR 3D", 
+        disable_3d: "SAIR DO 3D",
+        
+        // DESCRIÇÃO (NARRATIVA)
+        desc_title: "VELOCIDADE<br>ESCULPIDA.",
+        desc_subtitle: "O LEGADO DE PHIL FRANK / CIRCA 2002",
+        
+        desc_text_1: "Executado em aço inoxidável escovado, o D-Line abandona a geometria tradicional. A sua arquitetura de 'metal líquido' unifica a pulseira e o módulo digital numa forma única e aerodinâmica, desenhada para o movimento.",
+        
+        desc_text_2: "A interface angulada não é apenas estética; é um recurso ergonômico focado na pilotagem, permitindo leitura instantânea em alta velocidade. Um artefacto monolítico da era do design industrial Y2K.",
+        
+        // ESPECIFICAÇÕES TÉCNICAS
+        tech_title: "ESPECIFICAÇÕES TÉCNICAS",
+        spec_case: "CONSTRUÇÃO",
+        spec_finish: "ACABAMENTO",
+        spec_display: "ÓTICA DO DISPLAY",
+        spec_glass: "LENTE",
+        spec_mov: "MOTOR",
+        spec_dim: "DIMENSÕES",
+        spec_wr: "RESISTÊNCIA À ÁGUA",
+        spec_mat: "MATERIAL",
+        spec_int: "INTERFACE",
+        spec_yr: "ANO",
+
+        // GALERIA
+        gallery_title: "ARQUIVO VISUAL"
     }
 };
 let currentLang = 'en';
