@@ -4,7 +4,7 @@
 ![Platform](https://img.shields.io/badge/Platform-Web%20%7C%20Mobile-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-![Project Preview](assets/nike%20d-line%20watch.jpg)
+![Project Preview](assets/nike%20watches.jpg)
 
 > **Disclaimer:** Este é um projeto de fã (Fan Art) sem afiliação oficial com a Nike Inc. O foco é demonstração de habilidades em WebGL e Front-end.
 
